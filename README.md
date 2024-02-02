@@ -5,6 +5,7 @@ Pincha [aquí](https://github.com/PdEXavierMY/Tareas_Criptografia) para acceder 
 ***
 
 1. [Tarea 1: Descifra el mensaje oculto en la imagen](#tarea-1-descifra-el-mensaje-oculto-en-la-imagen)
+2. [Tarea 2: Descifra el mensaje oculto del QR](
 
 
 <h2 align="center">Tarea 1: Descifra el mensaje oculto en la imagen</h2>
@@ -89,3 +90,26 @@ En python, por como funcionan los índices la fórmula quedaría adaptada a:
 
 ![image](https://github.com/PdEXavierMY/Tareas_Criptografia/assets/91721855/fdc1257f-49e0-4e12-8a15-7fb7e5d49778)
 
+<h2 align="center">Tarea 2: Descifra el mensaje oculto del QR</h2>
+
+***
+
+Se ha implantado en la entrada de la universidad un sistema para entrar a clase mediante lectura de un código QR. Jose Antonio como persona responsable distribuye varios códigos QR para que los alumnos prueben sus teléfonos
+
+¿Puedes leer el QR?
+
+Pista:
+
+1. Lee el código QR, con un lector o desde consola  
+
+2. Para leer desde consola puedes utilizar zbar-tools  
+
+3. Decodifica base64 muchas veces 
+
+La mayoría de los lectores no leen bien el código debido a su tamaño por lo que puede hacerse la lectura vía command line utilizando zbarimg que viene incluido en el paquete 
+
+Y el código correspondiente es:
+
+```python
+Código
+```
