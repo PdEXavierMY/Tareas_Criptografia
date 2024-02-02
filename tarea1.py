@@ -32,6 +32,12 @@ def descifrar_atbash(texto_cifrado):
 
 
 if __name__ == "__main__":
+    #Ejercicio
+    texto = "GSVUOZTRHHZBDVZIVXIZAB"
+    print("Texto cifrado: ", texto)
+    print("Texto descifrado: ", descifrar_atbash(texto))
+
+
     texto = str(input("Ingrese el texto a cifrar: "))
     print("Texto cifrado: ", cifrar_atbash(texto))
     texto_cifrado = str(input("Ingrese el texto a descifrar: "))
