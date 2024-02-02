@@ -81,7 +81,7 @@ El cifrado Atbash se fundamenta en el principio de recorrer el alfabeto y asigna
 
 En esencia:
 
-letras_Atbash(i) = letras_Alfabeto[-i]
+letras_Atbash(i) = letras_Alfabeto[-i] ; donde i es la posición en el alfabeto de la letra correspondiente.
 
 En python, por como funcionan los índices la fórmula quedaría adaptada a:
 
