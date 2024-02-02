@@ -67,3 +67,11 @@ if __name__ == "__main__":
 ```
 
 El cifrado Atbash se fundamenta en el principio de recorrer el alfabeto y asignar a cada letra su contraparte ubicada al final de este. Desde una perspectiva matemática, se puede conceptualizar el alfabeto como una matriz, y aplicar la operación de intercambio mediante el uso de índices negativos opuestos. De esta manera, cada elemento del alfabeto se reemplaza por su opuesto simétrico, dando forma al proceso de cifrado Atbash.
+
+En esencia:
+
+letras_Atbash(i) = letras_Alfabeto[-i]
+
+En python, por como funcionan los índices la fórmula quedaría adaptada a:
+
+letras_Atbash(i) = letras_Alfabeto[-(i+1)]
