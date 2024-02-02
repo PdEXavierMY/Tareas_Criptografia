@@ -2,6 +2,11 @@
 
 Pincha [aquí](https://github.com/PdEXavierMY/Tareas_Criptografia) para acceder al repositorio.
 
+***
+
+1. [Tarea 1: Descifra el mensaje oculto en la imagen](#tarea-1-descifra-el-mensaje-oculto-en-la-imagen)
+
+
 <h2 align="center">Tarea 1: Descifra el mensaje oculto en la imagen</h2>
 
 ***
@@ -66,12 +71,21 @@ if __name__ == "__main__":
     print("Texto descifrado: ", descifrar_atbash(texto_cifrado))
 ```
 
+Por lo tanto:
+
+![image](https://github.com/PdEXavierMY/Tareas_Criptografia/assets/91721855/681d1350-1d90-4dd3-9b98-1d15535be874)
+
+La solución es: theflagissaywearecrazy
+
 El cifrado Atbash se fundamenta en el principio de recorrer el alfabeto y asignar a cada letra su contraparte ubicada al final de este. Desde una perspectiva matemática, se puede conceptualizar el alfabeto como una matriz, y aplicar la operación de intercambio mediante el uso de índices negativos opuestos. De esta manera, cada elemento del alfabeto se reemplaza por su opuesto simétrico, dando forma al proceso de cifrado Atbash.
 
 En esencia:
 
-letras_Atbash(i) = letras_Alfabeto[-i]
+![image](https://github.com/PdEXavierMY/Tareas_Criptografia/assets/91721855/712e1fb9-fe34-4a40-9a21-bbb88c7c52ff)
+
+Donde i es la posición en el alfabeto de la letra correspondiente.
 
 En python, por como funcionan los índices la fórmula quedaría adaptada a:
 
-letras_Atbash(i) = letras_Alfabeto[-(i+1)]
+![image](https://github.com/PdEXavierMY/Tareas_Criptografia/assets/91721855/fdc1257f-49e0-4e12-8a15-7fb7e5d49778)
+
