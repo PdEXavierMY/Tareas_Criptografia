@@ -28,6 +28,7 @@ def descifrar_atbash(texto_cifrado):
             texto_descifrado += letra
     return texto_descifrado
 
+
 def tarea1(texto):
     print("Texto cifrado: ", texto)
     print("Texto descifrado: ", descifrar_atbash(texto))
