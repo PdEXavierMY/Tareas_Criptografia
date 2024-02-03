@@ -28,17 +28,17 @@ def descifrar_atbash(texto_cifrado):
             texto_descifrado += letra
     return texto_descifrado
 
-# Main para testear
-
-
-if __name__ == "__main__":
-    #Ejercicio
-    texto = "GSVUOZTRHHZBDVZIVXIZAB"
+def tarea1(texto):
     print("Texto cifrado: ", texto)
     print("Texto descifrado: ", descifrar_atbash(texto))
-
 
     texto = str(input("Ingrese el texto a cifrar: "))
     print("Texto cifrado: ", cifrar_atbash(texto))
     texto_cifrado = str(input("Ingrese el texto a descifrar: "))
     print("Texto descifrado: ", descifrar_atbash(texto_cifrado))
+
+# Main para testear
+
+
+if __name__ == "__main__":
+    tarea1("GSVUOZTRHHZBDVZIVXIZAB")
