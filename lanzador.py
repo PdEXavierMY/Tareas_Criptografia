@@ -20,4 +20,3 @@ def lanzador():
         lanzador()
     else:
         print("Ejercicio no válido")
-        lanzador()

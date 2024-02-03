@@ -111,44 +111,31 @@ La mayoría de los lectores no leen bien el código debido a su tamaño por lo q
 Y el código correspondiente es:
 
 ```python
-import cv2
-from pyzbar.pyzbar import decode
-
-# Función para leer un código QR desde una imagen y extraer su contenido
+import base64
 
 
-def leer_codigo_qr(imagen_path):
-    # Cargar la imagen
-    imagen = cv2.imread(imagen_path)
+def decode_base64(cadena):
+    return base64.b64decode(cadena).decode('utf-8')
 
-    # Convertir la imagen a escala de grises
-    imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 
-    # Decodificar los códigos QR presentes en la imagen
-    resultados = decode(imagen_gris)
+# Cadena en base64 proporcionada
+cadena_base64 = "Vm0wd2QyUXlWa2hWV0doVllteEtWMVl3WkRSWFJteFZVbTVrVmxKc2NIcFhhMk0xVmpGS2RHVkdXbFpOYm1oUVdWZDRTMk14VG5OWGJHUlRUVEZLVVZkV1kzaFRNVWw0V2toR1VtSlZXbFJXYWtwdlpWWmFkR05GU214U2JWSkpWbTEwYzJGV1NuUlZiR2hoVmpOb2FGWldXbUZqYkhCSlkwZDRVMkpXU2xsV1Z6QXhVekpHUjFOdVVtaFNlbXhXVm0weGIxSkdjRmRYYlhSWFRWWndlbFl5TVRSVk1rcFhVMnhzVjFaNlFYaFdSRXBIVWpGT2RWUnNhR2hsYlhoWlYxZDRiMVV3TUhoV1dHaFlZbGhTV0ZSV2FFTlRiR3QzV2tSU1ZrMUVSa1pXYlhCaFZqQXhkVlZ1V2xaaGExcGhXbFphVDJOdFNrZFRiV3hvWld4YWIxWnRNVEJXYXpGWFUydGtXRmRIYUZsWmEyaERZekZhYzFWclpGUmlSM2hYVmpKNGExWlhTa2RqUmxwWFlsaFNlbFpxUm1GU2JVVjZZVVprYUdFelFrbFdiWEJIVkRKU1YxZHVUbFJpVjNoVVZGY3hiMkl4V25STlJFWnJUVlZ3ZVZSV1ZtdGhiRXAwWVVoT1ZtRnJOVlJXTVZwaFkxWkdWVkpzVGs1WFJVcElWbXBLTkdFeFdsaFRiRnBxVWxkU1lWbFhjekZqYkZweFVtMUdVMkpWVmpaWlZWcHJWakZLVjJOSE9WaGhNVnBvVmtSS1RtVldUbkpoUjJoVFlrVndWVlp0TURGUk1rbDRWMWhvV0dKRk5WUlVWbFY0VGxaYWRFNVZPVmRpVlhCSVdUQmFjMWR0U2toaFJsSmFUVlp3VkZacVJuZFNWbEp5VGxkc1UySkhPVE5XYTFwaFZURlZlVkpyWkZoaWEzQndWV3RhZDFsV1duTlhibVJPVFZac00xWXlNVWRWTWtwR1RsUkdWazF1YUZoWlZWVjRZekZPY21KR2FGZFNXRUV5VjJ4V1lWbFdXWGhqUld4VllrWktjRlZxUmt0V1ZscEhWV3RLYTAxRVJsTlZSbEYzVUZFOVBRPT0="
 
-    contenido_qr_list = []
+# Decodificar la cadena en base64
 
-    # Mostrar los resultados
-    for resultado in resultados:
-        # Extraer las coordenadas del rectángulo que rodea el código QR
-        rectangulo = resultado.rect
 
-        # Obtener las coordenadas del rectángulo
-        x, y, w, h = rectangulo
+def tarea2(mensaje):
+    # Imprimir el resultado
+    cadena_decodificada = decode_base64(mensaje)
+    while True:
+        print(cadena_decodificada)
+        bool = input("¿Está la cadena decodificada? (S/N): ")
+        if bool.lower() == "s":
+            break
+        else:
+            cadena_decodificada = decode_base64(cadena_decodificada)
 
-        # Dibujar un rectángulo alrededor del código QR
-        cv2.rectangle(imagen, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-        # Obtener el contenido del código QR
-        contenido_qr = resultado.data.decode('utf-8')
-
-        contenido_qr_list.append(contenido_qr)
-
-    # Mostrar la imagen con los rectángulos dibujados
-    cv2.imshow('Imagen con código QR', imagen)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
-    return contenido_qr_list
+tarea2(cadena_base64)
 ```
+Obteniendo como solución: flag{QR_puede_usarse_para_esconder_mensajes}
