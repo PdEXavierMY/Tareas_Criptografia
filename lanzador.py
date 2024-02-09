@@ -6,7 +6,7 @@ from leer_qr import leer_codigo_qr
 
 def lanzador():
     eleccion = input(
-        "Elija el ejercicio a realizar:\n1. Descifrar texto\n2. Decodificar código QR\n3. Scrapping de email\nElija una opción:")
+        "Elija el ejercicio a realizar:\n1. Descifrar texto\n2. Decodificar código QR\n3. Scrapping de email\nElija una opción: ")
     if eleccion == "1":
         texto = str(input("Ingrese el texto a descifrar: "))
         tarea1(texto)
