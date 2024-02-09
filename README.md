@@ -147,6 +147,16 @@ Obteniendo como solución: flag{QR_puede_usarse_para_esconder_mensajes}
 
 ***
 
+Se ha logrado acceder al equipo de D. Furioso y se ha realizado una extracción de su carpeta de correo electrónico. Examina las comunicaciones y encuentra información acerca de un percance sufrido por D. Furioso. Indica la matrícula del coche de D.Furioso.
+
+1. Thunderbird es el nombre de un conocido cliente de correo. 
+
+2. Al configurar el servidor de correo con POP3 los correos se almacenan en un fichero de texto. 
+
+3. Puedes utilizar un editor de texto para analizar los archivos en la carpeta mail. 
+
+Los participantes tienen un archivo a su disposición con los registros de un cliente de correo Thunderbird. Deben realizar un análisis de las carpetas y archivos para esclarecer la matrícula del coche de D. Furioso
+
 El código para extraer la matrícula es:
 
 ```python
