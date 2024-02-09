@@ -143,7 +143,7 @@ tarea2(cadena_base64)
 
 Obteniendo como solución: flag{QR_puede_usarse_para_esconder_mensajes}
 
-<h2 align="center">Tarea 3: Scrapping del correo electrónico</h2>
+<h2 align="center">Tarea 3: Scrapping del correo</h2>
 
 ***
 
