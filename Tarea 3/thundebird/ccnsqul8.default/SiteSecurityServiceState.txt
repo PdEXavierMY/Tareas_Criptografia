@@ -1,0 +1,7 @@
+aus5.mozilla.org:HSTS	0	17396	1534584544538,1,0
+services.addons.mozilla.org:HSTS	0	17396	1534584304703,1,0
+services.addons.mozilla.org:HPKP	0	17396	1508232304704,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+versioncheck-bg.addons.mozilla.org:HPKP	0	17396	1508232305842,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
+versioncheck-bg.addons.mozilla.org:HSTS	0	17396	1503048605841,1,0
+blocklist.addons.mozilla.org:HSTS	0	17396	1503048724349,1,0
+www.gandi.net:HSTS	0	17396	1518815905968,1,0

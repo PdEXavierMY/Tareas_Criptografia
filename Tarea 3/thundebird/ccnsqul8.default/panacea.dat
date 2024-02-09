@@ -1,0 +1,130 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (8A=charset)(8B=boxFlags)(8C=hierDelim)(8D=onlineName)(8E=aclFlags)
+  (8F=serverTotal)(90=serverUnseen)(91=serverRecent)(92=indexingPriority)
+  (93=LastPurgeTime)(94=useServerRetention)(95=folderName)(96=nextUID)
+  (97=lastSyncTimeInSec)(98=MRUTime)
+  (99=dobayes.mailnews@mozilla.org#junk.empty)
+  (9A=dobayes.mailnews@mozilla.org#junk)
+  (80=ns:msg:db:row:scope:folders:all)(81=ns:msg:db:table:kind:folders)
+  (82=key)(83=flags)(84=totalMsgs)(85=totalUnreadMsgs)
+  (86=pendingUnreadMsgs)(87=pendingMsgs)(88=expungedBytes)(89=folderSize)>
+
+<(80
+    =/root/.thunderbird/ccnsqul8.default/ImapMail/imap-mail.outlook.com/INBOX.\
+msf)(86=8003014)(81=0)(82=ffffffffffffffff)(83=ISO-8859-1)(84=5e)(85=INBOX)
+  (87=1)(88
+    =/root/.thunderbird/ccnsqul8.default/Mail/pop-mail.outlook.com/Inbox.msf)
+  (89=1004)(AC=2)(AD=74e8)(8E=Bandeja de entrada)(AF=1503053334)(8B
+    =/root/.thunderbird/ccnsqul8.default/Mail/pop-mail.outlook.com/Trash.msf)
+  (8C=104)(8F=Papelera)(90
+    =/root/.thunderbird/ccnsqul8.default/Mail/pop-mail.outlook.com)
+  (91=1c)(92=ffffffff)(93=)(94=estacionamiento_autorizado133@outlook.es)
+  (95=/root/.thunderbird/ccnsqul8.default/Mail/Local Folders/Trash.msf)
+  (97
+    =/root/.thunderbird/ccnsqul8.default/Mail/Local Folders/Unsent Messages.ms\
+f)(98=804)(9A=Bandeja de salida)(9B
+    =/root/.thunderbird/ccnsqul8.default/Mail/Local Folders)(9C
+    =Carpetas locales)(A1
+    =/root/.thunderbird/ccnsqul8.default/Mail/pop-mail.outlook.com/Drafts.msf)
+  (A2=404)(A5=ab0)(A4=Borradores)(A6
+    =/root/.thunderbird/ccnsqul8.default/Mail/pop-mail.outlook.com/Sent.msf)
+  (A7=204)(AA=1186)(A9=Enviados)>
+{1:^80 {(k^81:c)(s=9)} 
+  [1(^82^80)(^83^86)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^8B=0)(^8C=5e)(^8D^85)(^8E=0)(^8F=0)(^90=0)(^91=0)(^94=1)(^97=0)]
+  [2(^82^88)(^83^89)(^84=2)(^85=0)(^86=0)(^87=0)(^88=0)(^89^AD)(^8A^83)
+    (^95^8E)(^94=1)(^98^AF)]
+  [3(^82^8B)(^83^8C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^95^8F)(^94=1)]
+  [4(^82^90)(^83=1c)(^84^92)(^85^92)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=)
+    (^95^94)]
+  [5(^82^95)(^83^8C)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^95^8F)(^94=1)]
+  [6(^82^97)(^83^98)(^84=0)(^85=0)(^86=0)(^87=0)(^88=0)(^89^82)(^8A^83)
+    (^95^9A)(^94=1)]
+  [7(^82^9B)(^83=1c)(^84^92)(^85^92)(^86=0)(^87=0)(^88=0)(^89^82)(^8A=)
+    (^95^9C)]
+  [8(^82^A1)(^83^A2)(^84=0)(^85=0)(^86=0)(^87=0)(^88^A5)(^89^A5)(^8A^83)
+    (^95^A4)(^94=1)]
+  [9(^82^A6)(^83^A7)(^84=2)(^85=0)(^86=0)(^87=0)(^88=0)(^89^AA)(^8A^83)
+    (^95^A9)(^94=1)]}
+
+@$${1{@
+<(B0=1503057296)>[2:^80(^98^B0)]
+@$$}1}@
+
+@$${2{@
+@$$}2}@
+
+@$${3{@
+<(B2=3)(B1=1503057299)>[-2:^80(^82^88)(^83^89)(^84=3)(^85=1)(^86=0)
+    (^87=0)(^88=0)(^89^AD)(^8A^83)(^95^8E)(^94=1)(^98^B1)]
+@$$}3}@
+
+@$${4{@
+<(B4=5)>[-2:^80(^82^88)(^83^89)(^84=5)(^85=3)(^86=0)(^87=0)(^88=0)
+    (^89^AD)(^8A^83)(^95^8E)(^94=1)(^98^B1)]
+@$$}4}@
+
+@$${5{@
+@$$}5}@
+
+@$${6{@
+<(B5=12531)>[2:^80(^89^B5)]
+@$$}6}@
+
+@$${7{@
+@$$}7}@
+
+@$${8{@
+@$$}8}@
+
+@$${9{@
+@$$}9}@
+
+@$${A{@
+@$$}A}@
+
+@$${B{@
+@$$}B}@
+
+@$${C{@
+@$$}C}@
+
+@$${D{@
+[2:^80(^85=2)]
+@$$}D}@
+
+@$${E{@
+@$$}E}@
+
+@$${F{@
+@$$}F}@
+
+@$${10{@
+[2:^80(^85=1)]
+@$$}10}@
+
+@$${11{@
+@$$}11}@
+
+@$${12{@
+@$$}12}@
+
+@$${13{@
+[2:^80(^85=0)]
+@$$}13}@
+
+@$${14{@
+@$$}14}@
+
+@$${15{@
+@$$}15}@
+
+@$${16{@
+<(B6=1503057333)>[2:^80(^98^B6)]
+@$$}16}@
+
+@$${17{@
+@$$}17}@

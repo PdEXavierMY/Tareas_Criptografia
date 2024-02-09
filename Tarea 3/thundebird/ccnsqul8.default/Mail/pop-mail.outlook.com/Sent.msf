@@ -1,0 +1,62 @@
+// <!-- <mdb:mork:z v="1.4"/> -->
+< <(a=c)> // (f=iso-8859-1)
+  (B8=keywords)(B9=retainBy)(BA=daysToKeepHdrs)(BB=numHdrsToKeep)
+  (BC=daysToKeepBodies)(BD=useServerDefaults)(BE=cleanupBodies)
+  (BF=applyToFlaggedMessages)(C0=useServerRetention)
+  (80=ns:msg:db:row:scope:msgs:all)(81=subject)(82=sender)(83=message-id)
+  (84=references)(85=recipients)(86=date)(87=size)(88=flags)(89=priority)
+  (8A=label)(8B=statusOfset)(8C=numLines)(8D=ccList)(8E=bccList)
+  (8F=msgThreadId)(90=threadId)(91=threadFlags)(92=threadNewestMsgDate)
+  (93=children)(94=unreadChildren)(95=threadSubject)(96=msgCharSet)
+  (97=ns:msg:db:table:kind:msgs)(98=ns:msg:db:table:kind:thread)
+  (99=ns:msg:db:table:kind:allthreads)
+  (9A=ns:msg:db:row:scope:threads:all)(9B=threadParent)(9C=threadRoot)
+  (9D=msgOffset)(9E=offlineMsgSize)
+  (9F=ns:msg:db:row:scope:dbfolderinfo:all)
+  (A0=ns:msg:db:table:kind:dbfolderinfo)(A1=numMsgs)(A2=numNewMsgs)
+  (A3=folderSize)(A4=expungedBytes)(A5=folderDate)(A6=highWaterKey)
+  (A7=mailboxName)(A8=UIDValidity)(A9=totPendingMsgs)
+  (AA=unreadPendingMsgs)(AB=expiredMark)(AC=version)(AD=forceReparse)
+  (AE=fixedBadRefThreading)(AF=folderName)(B0=charSetOverride)
+  (B1=charSet)(B2=storeToken)(B3=dateReceived)(B4=ProtoThreadFlags)
+  (B5=gloda-id)(B6=gloda-dirty)(B7=junkscore)>
+<(80=1)(92=fffffffe)(8E=5996c08b)(81=0)>
+[1:m(^9C=1)(^90^92)(^92^8E)(^91=0)(^93=1)]
+<(9B=2)(98=5996c31a)>[2:m(^9C=2)(^90=2)(^92^98)(^91=0)(^93=1)]
+
+<(8A=800011)(87=21)(88
+    =Elustondo Raimundo <estacionamiento_autorizado133@outlook.es>)
+  (89=Donal Furioso <duck.furybear@gmail.com>)(8B
+    ==?UTF-8?Q?Consulta_sobre_mi_Ubicaci=c3=b3n?=)(8C
+    =10febcb2-cbeb-7fc2-1f7a-05ef0d594ed1@outlook.es)(8D
+    =<CAEPjOfuKsTVEJ7-eZvQ3JTc5h_f3RND=xD1VV7h4zk65=i_rPw@mail.gmail.com>)
+  (8F=1186)(90=64)(91=ffffffff)(93=22)(94=4486)(96
+    =5ef2eb52-925c-546e-99cf-e9be8c877a75@outlook.es)(97
+    =<CAEPjOfvX5AfyzE=i5fpL6gGjLF9gJgRwVT6Wa_AekcSf7nCTRQ@mail.gmail.com>)
+  (99=2564)(9A=de)>
+{1:^80 {(k^97:c)(s=9)} 
+  [1(^9D=0)(^B2=0)(^88^8A)(^8A=0)(^8B=21)(^82^88)(^85^89)(^81^8B)(^83^8C)
+    (^84^8D)(^86^8E)(^B3^8E)(^89=1)(^87^8F)(^8C=64)(^9B^91)(^8F^92)
+    (^B4=0)(^B5=22)]
+  [2(^9D^8F)(^B2^94)(^88^8A)(^8A=0)(^8B=21)(^82^88)(^85^89)(^81^8B)
+    (^83^96)(^84^97)(^86^98)(^B3^98)(^89=1)(^87^99)(^8C=de)(^9B^91)
+    (^8F=2)(^B4=0)]}
+{2:^80 {(k^98:c)(s=9)2:m } 2 }
+{FFFFFFFE:^80 {(k^98:c)(s=9)1:m } 1 }
+{FFFFFFFD:^9A {(k^99:c)(s=9)} [FFFFFFFE(^95^8B)]
+  [2(^95^8B)]}
+
+<(82=204)(83=Sent)(9C=36ea)(9D=5996c323)(85=Enviados)>
+{1:^9F {(k^A0:c)(s=9u)} 
+  [1(^AC=1)(^AD=0)(^AE=1)(^88^82)(^A7^83)(^A3^9C)(^A5^9D)(^AF^85)(^A1=2)
+    (^A6=2)(^C0=1)]}
+
+@$${F{@
+@$$}F}@
+
+@$${10{@
+@$$}10}@
+
+@$${11{@
+<(9E=24)>[2:^80(^B5=24)]
+@$$}11}@
