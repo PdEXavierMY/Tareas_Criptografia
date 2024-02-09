@@ -6,7 +6,7 @@ Pincha [aquí](https://github.com/PdEXavierMY/Tareas_Criptografia) para acceder 
 
 1. [Tarea 1: Descifra el mensaje oculto en la imagen](#tarea-1-descifra-el-mensaje-oculto-en-la-imagen)
 2. [Tarea 2: Descifra el mensaje oculto del QR](#tarea-2-descifra-el-mensaje-oculto-del-QR)
-3. [Tarea 3: Scrapping del correo electrónico](#tarea-3-scrapping-del-correo)
+3. [Tarea 3: Scrapping del correo](#tarea-3-scrapping-del-correo)
 
 
 <h2 align="center">Tarea 1: Descifra el mensaje oculto en la imagen</h2>
