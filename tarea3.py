@@ -139,16 +139,17 @@ style="width:320px;height:4px;border-width:0px;background-color:rgb(253,120,50);
 </html>
 
 """
-# Parsear el HTML
-soup = BeautifulSoup(email_html, 'html.parser')
+def tarea3(email_html):
+    # Parsear el HTML
+    soup = BeautifulSoup(email_html, 'html.parser')
 
-# Buscar la etiqueta que contiene la información de la matrícula
-etiqueta_matricula = soup.find(
-    'div', text=lambda text: text and 'Matricula:' in text)
+    # Buscar la etiqueta que contiene la información de la matrícula
+    etiqueta_matricula = soup.find(
+        'div', text=lambda text: text and 'Matricula:' in text)
 
-# Si se encuentra la etiqueta, extraer la matrícula
-if etiqueta_matricula:
-    matricula = etiqueta_matricula.text.split(': ')[1]
-    print("Matrícula:", matricula)
-else:
-    print("No se encontró la matrícula en el correo electrónico.")
+    # Si se encuentra la etiqueta, extraer la matrícula
+    if etiqueta_matricula:
+        matricula = etiqueta_matricula.text.split(': ')[1]
+        print("Matrícula:", matricula)
+    else:
+        print("No se encontró la matrícula en el correo electrónico.")
